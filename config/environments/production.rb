@@ -2,8 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-config.serve_static_assets = true
-config.assets.compile = true
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -61,7 +60,7 @@ config.assets.compile = true
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "drmasi_V1_production"
+  # config.active_job.queue_name_prefix = "drmasi_production"
 
   config.action_mailer.perform_caching = false
 
