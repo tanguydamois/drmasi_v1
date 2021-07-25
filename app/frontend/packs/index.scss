@@ -1,24 +1,18 @@
-.home  {
-  background-color: black;
-  position: relative;
-  text-align: center;
+body {
+  background-image: url('/assets/drmasi.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
-.title {
-  color: grey;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+p {
+ color: grey;
+ font-size: 36px;
 }
 
-.address {
-  color: grey;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-}
-
-.doctolib {
+.doctolib_btn {
   display:block;
   text-align:center;
   background-color:#0596DE;
